@@ -11,8 +11,6 @@ for(item of buttons){
         break;
         case "=" :screen.value = eval(screen.value);
         break; 
-        case "←" : screen.value = screen.value.slice(0,-1);
-        break;
         default :  screen.value += event.target.innerHTML;
         break;          
          }
